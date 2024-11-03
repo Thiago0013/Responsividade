@@ -1,0 +1,234 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body, main{
+    height: 100%;
+}
+
+h1, h2, p{
+    color: #333;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 15px;
+}
+
+header img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+header nav a{
+    color: #333;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.s1{
+    height: 80%;
+    background-image: url("../images/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.s1Text{
+    margin-bottom: 100px;
+}
+
+.s1Text h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.s1Text p{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.s1 .botao{
+    text-align: center;
+}
+
+.s1 a{
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.s1 a:hover{
+    background-color: gray;
+    color: black;
+}
+
+.s2{
+    height: 80%;
+    text-align: center;
+}
+
+.s2 h1{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.caixas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa{
+    margin-left: 20px;
+    padding: 20px 10px 10px 10px;
+    border: 1px solid rgba(128, 128, 128, 0.712);
+}
+
+.caixa img{
+    width: 300px;
+}
+
+.caixa h2{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.s2 .caixa p{
+    margin:10px 0px 20px 0px;
+}
+
+.caixa a{
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    width: 320px;
+}
+
+.caixa a:hover{
+    background-color: gray;
+    color: black;
+}
+
+.s3 h1{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.s3 .caixaImg{
+    display: flex;
+    justify-content: center;
+}
+
+.s3 img{
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.s3 p{
+    margin-bottom: 20px;
+    width: 320px;
+    text-align: center;
+}
+
+.s4{
+    text-align: center;
+}
+
+.s4 h1{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.s4 .caixa{
+    padding: 30px;
+    height: 160px;
+    width: 340px;
+}
+
+.s4 .caixa h2{
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.s4 .caixa p{
+    margin: auto;
+    width: 270px;
+    text-align: justify;
+}
+
+.s5{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.s5 .formulario{
+    width: 100%;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.formulario h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form input{
+    width: 90%;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+
+form textarea{
+    width: 90%;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+
+form .submit{
+    background-color: #333;
+    color: white;
+}
+
+form .submit:hover{
+    background-color: gray;
+    color: black;
+}
+
+
+.s5 .caixaImg{
+    width: 100%;
+}
+
+.s5 .caixaImg img{
+    width: 600px;
+}

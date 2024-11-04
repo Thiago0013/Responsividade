@@ -5,7 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html, body, main{
+html, body{
     height: 100%;
 }
 
@@ -36,7 +36,7 @@ header nav a{
 }
 
 .s1{
-    height: 80%;
+    height: 460px;
     background-image: url("../images/bg.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -79,22 +79,23 @@ header nav a{
 }
 
 .s2{
-    height: 80%;
     text-align: center;
 }
 
 .s2 h1{
     margin-top: 50px;
-    margin-bottom: 10px;
+    margin-bottom: -10px;
 }
 
 .caixas{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .caixa{
+    margin-top: 20px;
     margin-left: 20px;
     padding: 20px 10px 10px 10px;
     border: 1px solid rgba(128, 128, 128, 0.712);
@@ -110,7 +111,7 @@ header nav a{
 }
 
 .s2 .caixa p{
-    margin:10px 0px 20px 0px;
+    margin:10px 0px 10px 0px;
 }
 
 .caixa a{
@@ -129,7 +130,7 @@ header nav a{
 
 .s3 h1{
     margin-top: 50px;
-    margin-bottom: 10px;
+    margin-bottom: -10px;
     text-align: center;
 }
 
@@ -156,7 +157,7 @@ header nav a{
 
 .s4 h1{
     margin-top: 50px;
-    margin-bottom: 10px;
+    margin-bottom: -10px;
     text-align: center;
 }
 
@@ -178,21 +179,23 @@ header nav a{
 }
 
 .s5{
-    height: 90%;
+    height:460px;
     display: flex;
     justify-content: center;
     align-items: end;
+    margin-bottom: 20px;
 }
 
 .s5 .formulario{
-    width: 100%;
+    width: 700px;
 }
 
 .formulario form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: end;
+    justify-content:left;
+    margin-right: 20px;
 }
 
 .formulario h1{
@@ -201,15 +204,17 @@ header nav a{
 }
 
 form input{
-    width: 90%;
+    width: 95%;
     height: 40px;
     margin-bottom: 20px;
     margin-left: 60px;
+    padding: 5px;
 }
 
 form textarea{
-    width: 90%;
-    height: 50px;
+    padding: 5px;
+    width: 95%;
+    height: 70px;
     margin-bottom: 20px;
     margin-left: 60px;
 }
@@ -224,11 +229,28 @@ form .submit:hover{
     color: black;
 }
 
-
 .s5 .caixaImg{
-    width: 100%;
+    display: flex;
+    width: 600px;
+    margin-bottom: 10px;
 }
 
 .s5 .caixaImg img{
-    width: 600px;
+    width: 90%;
+}
+
+footer{
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+}
+
+footer p{  
+    color: white;
+    margin-bottom: 5px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
 }

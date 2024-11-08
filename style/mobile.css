@@ -149,6 +149,13 @@
         margin-bottom: 0px;
     }
 
+    .s1Text h1{
+        font-size: 20px;
+    }
+    .s1Text p{
+        font-size: 15px;
+    }
+
     .s1 .botao{
         display: flex;
         justify-content: center;
@@ -157,8 +164,8 @@
     }
 
     .s1 .botao a{
+        margin: 0px 0px 10px 0px;
         width: 180px;
-        margin-bottom: 10px;
     }
 
     .caixas .caixa{
